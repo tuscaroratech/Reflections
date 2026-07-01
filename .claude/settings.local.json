@@ -4,7 +4,17 @@
       "Bash(sw_vers)",
       "Bash(xcodebuild -version)",
       "Bash(git add:*)",
-      "Bash(git commit -m ':*)"
+      "Bash(git commit -m ':*)",
+      "Bash(xcodebuild -project Reflections.xcodeproj -scheme Reflections -sdk macosx build CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO)",
+      "Bash(sudo xcodebuild:*)",
+      "Bash(xcodebuild -runFirstLaunch)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(brew install:*)",
+      "Bash(/opt/homebrew/bin/gh auth:*)",
+      "Bash(/opt/homebrew/bin/gh repo:*)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget"
     ]
   }
 }
