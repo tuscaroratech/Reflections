@@ -14,7 +14,27 @@
       "Bash(/opt/homebrew/bin/gh auth:*)",
       "Bash(/opt/homebrew/bin/gh repo:*)",
       "mcp__visualize__read_me",
-      "mcp__visualize__show_widget"
+      "mcp__visualize__show_widget",
+      "Bash(git push *)",
+      "Bash(gh repo *)",
+      "Bash(echo \"installed: $?\")",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); print\\([x for x in v if x.startswith\\('18.'\\)][-5:]\\)\")",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); print\\([x for x in v if x.startswith\\('0.76.'\\)][-5:]\\)\")",
+      "Bash(npx --yes expo@54.0.35 install --check)",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); print\\([x for x in v if x.startswith\\('4.'\\)][-10:]\\)\")",
+      "Bash(python3 -c \"import sys; data=sys.stdin.read\\(\\); print\\(data\\)\")",
+      "Bash(npx expo *)",
+      "Bash(node -e \"const pkg = require\\('/Users/jeremyfoltz/CongregationApp/node_modules/expo-router/package.json'\\); console.log\\('version:', pkg.version, 'main:', pkg.main, 'exports entry:', pkg.exports?.['./entry']?.require\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const p = require\\('/Users/jeremyfoltz/CongregationApp/node_modules/expo-router/package.json'\\); console.log\\(JSON.stringify\\(p.peerDependencies, null, 2\\)\\)\")",
+      "Bash(node -e \"console.log\\(require\\('/Users/jeremyfoltz/CongregationApp/node_modules/react-native-reanimated/package.json'\\).version\\)\")",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); print\\(v[-5:]\\)\")",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); stable=[x for x in v if 'nightly' not in x and 'alpha' not in x and 'rc' not in x]; print\\(stable[-5:]\\)\")",
+      "Bash(node -e \"console.log\\(require\\('/Users/jeremyfoltz/CongregationApp/node_modules/react-native-reanimated/package.json'\\).peerDependencies\\)\")",
+      "Bash(python3 -c \"import json,sys; v=json.load\\(sys.stdin\\); stable=[x for x in v if 'nightly' not in x and 'alpha' not in x and 'rc' not in x]; print\\([x for x in stable if x.startswith\\('0.5'\\) or x.startswith\\('0.6'\\) or x.startswith\\('0.7'\\) or x.startswith\\('0.8'\\)]\\)\")",
+      "Bash(node -e \"console.log\\(require\\('/Users/jeremyfoltz/CongregationApp/node_modules/react-native-worklets/package.json'\\).version\\)\")"
     ]
   }
 }

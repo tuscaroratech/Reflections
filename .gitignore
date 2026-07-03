@@ -5,3 +5,6 @@ DerivedData/
 .build/
 *.o
 *.d
+node_modules/
+package.json
+package-lock.json
